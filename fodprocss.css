@@ -83,7 +83,7 @@ body {
 
 
 header{
-    position: fixed;
+    position: sticky;
     top: 0;
     right: 0;
     width: 100%;
@@ -94,7 +94,6 @@ header{
     padding: 10px 40px;
     background:black;
     border-radius: 4px;
-    position:sticky;
 }
 
 
@@ -380,6 +379,13 @@ section{
 
 
 }
+.col .social .twitter a{
+    
+    background: rgb(249, 246, 246);
+    fill:rgb(0, 0, 0);
+
+
+}
 .col .social .red a{
     
     background: rgb(249, 246, 246);
@@ -394,21 +400,28 @@ section{
 
 }
 .col .social .insta a:hover{
-    transform: scale(1.8);
+    transform: scale(1.5);
     background: #000000;
     fill:rgb(255, 65, 1);
 
 
 }
+.col .social .twitter a:hover{
+    transform: scale(1.5);
+    background: #000000;
+    fill:rgb(250, 241, 238);
+
+
+}
 .col .social .blue a:hover{
-    transform: scale(1.8);
+    transform: scale(1.5);
     background: #000000;
     fill:rgb(0, 70, 161);
 
 
 }
 .col .social .red a:hover{
-    transform: scale(1.8);
+    transform: scale(1.5);
     background: #000000;
     fill:rgb(255, 0, 0);
 
@@ -771,7 +784,7 @@ button:hover {
       
     header{
         padding: 10px 16px;
-        position: relative;
+        position: sticky;
     }
     .home{
         grid-template-columns: 1fr;
